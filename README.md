@@ -9,5 +9,10 @@ dependencies{
 <uses-permission
     android:name="android.permission.INTERNET" />
 
+android:usesCleartextTraffic="true"
+
+<uses-library android:name="org.apache.http.legacy" android:required="false"/>
+
+
 
 ```
